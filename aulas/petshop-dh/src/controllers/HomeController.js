@@ -1,4 +1,4 @@
-const Servico = require("../model/Servico")
+const Servico = require("../model/ServicoModel")
 
 const HomeController = {
     showHomePage: (req, res) => {

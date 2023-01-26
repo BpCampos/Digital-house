@@ -1,42 +1,43 @@
 {
-    "services": [{
-            "id": 1,
-            "name": "Banho e tosa",
-            "price": 70.0,
-            "description": "O melhor serviço de banho e tosa da cidade!",
-            "image": "https://www.revistapetcenter.com.br/wp-content/uploads/2022/07/petcenter-241-anuario-banho-e-tosa-renta%CC%81vel.jpg"
-        },
+    "services": [
         {
-            "id": 2,
+            "id": 1,
             "name": "Vacinação",
             "price": 120,
             "description": "Cuide da saúde do seu pet, coloque a carteira de vacinação do seu pet em dia!",
             "image": "https://www.granvitapet.com.br/sitedata//imgsdt/geral/vacinacao-do-seu-pet.jpg"
         },
         {
-            "id": 3,
-            "name": "Passeio",
-            "price": 50.97,
-            "description": "Passeamos com o seu pet. Duração do passeio: 15min",
-            "image": "https://cisavet.com.br/arquivos/banco-de-imagens/categoria-1/dicas-para-a-hora-do-passeio-com-o-pet-20180820132255.jpg"
+            "id": "2",
+            "name": "Passeio ",
+            "price": "50.97",
+            "image": "",
+            "description": "Passeamos com o seu pet. Duração do passeio: 15min"
+        },
+        {
+            "id": "3",
+            "name": "editado",
+            "price": "80.55",
+            "image": "",
+            "description": "Cuidamos do seu pet no período da 08:00 - 18:00. Neste valor está incluso um passeio com o pet e a alimentação.\"\"\"\""
         },
         {
             "id": 4,
-            "name": "Cuidar do pet - Diária",
-            "price": 80.55,
-            "description": "Cuidamos do seu pet no período da 08:00 - 18:00. Neste valor está incluso um passeio com o pet e a alimentação.",
-            "image": "https://assets.elanco.com/8e0bf1c2-1ae4-001f-9257-f2be3c683fb1/fb066060-85f9-4b46-806e-33083fbbf82b/carinho-cachorro.jpg"
-        },
-        {
-            "id": 5,
             "name": "Consulta veterinária",
             "price": 150.98,
             "description": "Realizamos atendimeto médico ao seu pet com os melhores veterinários da cidade.",
             "image": "https://fresh4pet.com.br/wp-content/uploads/2020/08/foto-blog-24-agosto-1024x756.jpg"
+        },
+        {
+            "id": "4f3e891f-8e98-47ad-a092-759d4b859b95",
+            "name": "editado",
+            "price": "420",
+            "image": "",
+            "description": "editado"
         }
-
     ],
-    "users": [{
+    "users": [
+        {
             "id": 1,
             "firstName": "John",
             "lastName": "Doe",
