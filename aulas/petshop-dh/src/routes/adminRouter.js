@@ -11,5 +11,6 @@ router.get('/admin/servicos/:id/edit', AdminController.showEditService)
 router.put('/admin/servicos/:id/edit', AdminController.updateService)
 router.delete('/admin/servicos/:id/delete', AdminController.deleteService)
 router.get('/admin/servicos/:id',)
+router.post('/')
 
 module.exports = router; 

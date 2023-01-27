@@ -3,7 +3,7 @@ const servicoModel = require('../model/ServicoModel')
 const AdminController = {
     showServico: (req, res) => {
         const servicos = servicoModel.findAll();
-        res.render('admin/servicos', { servicos })
+        res.render('admin/servicos/index', { servicos })
     },
 
     showCadastro: (req, res) => {

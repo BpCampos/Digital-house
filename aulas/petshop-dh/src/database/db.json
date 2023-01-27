@@ -1,39 +1,11 @@
 {
     "services": [
         {
-            "id": 1,
-            "name": "Vacinação",
-            "price": 120,
-            "description": "Cuide da saúde do seu pet, coloque a carteira de vacinação do seu pet em dia!",
-            "image": "https://www.granvitapet.com.br/sitedata//imgsdt/geral/vacinacao-do-seu-pet.jpg"
-        },
-        {
-            "id": "2",
-            "name": "Passeio ",
-            "price": "50.97",
-            "image": "",
-            "description": "Passeamos com o seu pet. Duração do passeio: 15min"
-        },
-        {
-            "id": "3",
-            "name": "editado",
-            "price": "80.55",
-            "image": "",
-            "description": "Cuidamos do seu pet no período da 08:00 - 18:00. Neste valor está incluso um passeio com o pet e a alimentação.\"\"\"\""
-        },
-        {
-            "id": 4,
-            "name": "Consulta veterinária",
-            "price": 150.98,
-            "description": "Realizamos atendimeto médico ao seu pet com os melhores veterinários da cidade.",
-            "image": "https://fresh4pet.com.br/wp-content/uploads/2020/08/foto-blog-24-agosto-1024x756.jpg"
-        },
-        {
-            "id": "4f3e891f-8e98-47ad-a092-759d4b859b95",
-            "name": "editado",
-            "price": "420",
-            "image": "",
-            "description": "editado"
+            "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
+            "name": "Tosa",
+            "price": 90,
+            "image": "/img/1674779603201.jpg",
+            "description": "Tosa completa"
         }
     ],
     "users": [
