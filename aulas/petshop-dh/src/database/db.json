@@ -1,29 +1,36 @@
 {
-    "services": [
-        {
-            "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
-            "name": "Tosa",
-            "price": 90,
-            "image": "/img/1674779603201.jpg",
-            "description": "Tosa completa"
-        }
-    ],
-    "users": [
-        {
-            "id": 1,
-            "firstName": "John",
-            "lastName": "Doe",
-            "email": "john@mail.com",
-            "password": "123456",
-            "isAdmin": true
-        },
-        {
-            "id": 2,
-            "firstName": "Lorem",
-            "lastName": "Ipsum",
-            "email": "lorem@mail.com",
-            "password": "123456",
-            "isAdmin": false
-        }
-    ]
+  "services": [
+    {
+      "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
+      "name": "Tosa",
+      "price": 90,
+      "image": "/img/1674779603201.jpg",
+      "description": "Tosa completa"
+    },
+    {
+      "id": "8bee3b83-b24d-44e1-a130-95ccc7d869f3",
+      "name": "Jogador",
+      "price": 1500,
+      "image": "/img/1674848492596.png",
+      "description": "Homenageia o rei pele sempre que possível"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "email": "john@mail.com",
+      "password": "123456",
+      "isAdmin": true
+    },
+    {
+      "id": 2,
+      "firstName": "Lorem",
+      "lastName": "Ipsum",
+      "email": "lorem@mail.com",
+      "password": "123456",
+      "isAdmin": false
+    }
+  ]
 }

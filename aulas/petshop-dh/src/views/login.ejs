@@ -12,7 +12,7 @@
     <%- include("./components/header.ejs") %>
 
     <main>
-      <form class="login" method="POST">
+      <form action="/admin/login" class="login" method="POST">
         <h1>Login</h1>
         <label for="email">Email</label>
         <input type="email" name="email" id="" />
@@ -21,6 +21,7 @@
         <button class="submit" type="submit">Enviar</button>
       </form>
     </main>
+    <script src="../js/main.js"></script>
     <%- include("./components/footer.ejs") %>
   </body>
 </html>

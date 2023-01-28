@@ -1,5 +1,7 @@
 const express = require('express');
 const AdminController = require('../controllers/AdminController');
+
+//midlewares
 const upload = require('../middleware/upload')
 
 const router = express.Router();
@@ -11,6 +13,7 @@ router.get('/admin/servicos/:id/edit', AdminController.showEditService)
 router.put('/admin/servicos/:id/edit', AdminController.updateService)
 router.delete('/admin/servicos/:id/delete', AdminController.deleteService)
 router.get('/admin/servicos/:id',)
-router.post('/')
+router.get('/admin/servicos/profile', AdminController.showProfile)
+router.post('/admin/login', AdminController.login)
 
 module.exports = router; 

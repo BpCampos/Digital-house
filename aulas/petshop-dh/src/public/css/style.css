@@ -274,13 +274,15 @@ section.contato p {
 /* login */
 
 .login {
-  width: 20%;
-  margin: 146.5px auto;
+  width: 18%;
+  margin: 0 auto;
+  height: 47vh;
+  margin-top: 90px;
 }
 
 .login h1 {
   text-align: center;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   margin: 5px 0 15px 0;
   font-weight: bold;
   color: #ffbe51;
@@ -299,13 +301,24 @@ section.contato p {
 }
 
 .submit {
-  margin: 10px 0;
+  margin: 18px 0 0 0;
   padding: 10px 15px;
   background-color: #ffbe51;
   border-radius: 4px;
   border: none;
   color: white;
   font-weight: bold;
+  transition: 300ms;
+  box-sizing: border-box;
+}
+
+.submit:hover {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.notLoad {
+  transition: 0;
 }
 
 /* cadastro */

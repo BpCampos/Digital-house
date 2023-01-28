@@ -1,4 +1,5 @@
 const servicoModel = require('../model/ServicoModel')
+const Users = require('../model/Users')
 
 const AdminController = {
     showServico: (req, res) => {
@@ -49,6 +50,17 @@ const AdminController = {
         servicoModel.delete(id)
 
         return res.redirect('/admin/servicos')
+    },
+
+    showProfile: (req, res) => {
+        res.render('admin/servicos/profile')
+    },
+
+    login: (req, res) => {
+
+
+
+        res.redirect('/admin/servicos/profile')
     }
 }
 

@@ -63,6 +63,21 @@ const Servico = {
 
         const dbJson = JSON.stringify(db, null, 4);
         fs.writeFileSync(pathDB, dbJson, 'utf-8')
+    },
+
+    createUser: (user) => {
+
+        const newUser = {
+            id: crypto.randomUUID(),
+            name: user.name,
+            email: user.email,
+            password: user.password,
+            isAdmin: false
+        }
+
+        db.users.push(newUser);
+        const dbJson = JSON.stringify(db, null, 4);
+        fs.writeFileSync(pathDB, dbJson, 'utf-8')
     }
 }
 module.exports = Servico;

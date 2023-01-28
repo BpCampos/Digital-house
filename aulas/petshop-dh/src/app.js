@@ -3,7 +3,8 @@ const express = require('express');
 const path = require('path');
 const methodOverride = require('method-override')
 const homeRouter = require('./routes/homeRouter');
-const adminRouter = require('./routes/adminRouter')
+const adminRouter = require('./routes/adminRouter');
+const userRouter = require('./routes/userRouter');
 
 //Variaveis
 const app = express();
@@ -18,9 +19,11 @@ app.use(express.static(path.resolve("src", "public")));
 app.use(methodOverride('_method'))
 
 
+
 //Rotas
 app.use(homeRouter);
 app.use(adminRouter);
+app.use(userRouter);
 
 app.listen(port, () => console.log(`Servidor funcionando na porta ${port}`))
 // npm run dev -> nodemon | npm start -> node
