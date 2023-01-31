@@ -1,36 +1,48 @@
 {
-  "services": [
-    {
-      "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
-      "name": "Tosa",
-      "price": 90,
-      "image": "/img/1674779603201.jpg",
-      "description": "Tosa completa"
-    },
-    {
-      "id": "8bee3b83-b24d-44e1-a130-95ccc7d869f3",
-      "name": "Jogador",
-      "price": 1500,
-      "image": "/img/1674848492596.png",
-      "description": "Homenageia o rei pele sempre que possível"
-    }
-  ],
-  "users": [
-    {
-      "id": 1,
-      "firstName": "John",
-      "lastName": "Doe",
-      "email": "john@mail.com",
-      "password": "123456",
-      "isAdmin": true
-    },
-    {
-      "id": 2,
-      "firstName": "Lorem",
-      "lastName": "Ipsum",
-      "email": "lorem@mail.com",
-      "password": "123456",
-      "isAdmin": false
-    }
-  ]
+    "services": [
+        {
+            "id": "624325bc-a7ea-45df-a2aa-3152648bf5d2",
+            "name": "Tosa",
+            "price": 90,
+            "image": "/img/1674779603201.jpg",
+            "description": "Tosa completa"
+        },
+        {
+            "id": "8bee3b83-b24d-44e1-a130-95ccc7d869f3",
+            "name": "Jogador",
+            "price": 1500,
+            "image": "/img/1674848492596.png",
+            "description": "Homenageia o rei pele sempre que possível"
+        },
+        {
+            "id": "cd39dcd4-8719-4303-b5f5-fe8db88984f7",
+            "name": "editado",
+            "price": 100,
+            "image": "/img/1675118965388.png",
+            "description": "eeeeeeeee"
+        }
+    ],
+    "users": [
+        {
+            "id": "85202b6b-ab8f-4335-9c76-409730099d1f",
+            "name": "editado",
+            "email": "abcd@abcd.com",
+            "password": "$2b$10$NMoen61KnAWI.nDa9qTAMO/P6wBF5NY0Gfd7lPR.9rS.Yj91H9XDC",
+            "isAdmin": false
+        },
+        {
+            "id": "8dcd9e40-1182-48d4-a409-d38f2d42d20e",
+            "name": "uva",
+            "email": "uva@uva.com",
+            "password": "$2b$10$uODHRlM4eGYbTAW7LBrm8OT1AdtZHWGGHeCrbTQYl3dj8nRSbb10e",
+            "isAdmin": false
+        },
+        {
+            "id": "cd14a941-5f0f-474a-a43a-ab7300a47e62",
+            "name": "teste",
+            "email": "batata@batata.com",
+            "password": "$2b$10$GXx415BT0HMqUhFs3xOUAOdRWxipTCXXoZewEw4mv6GKwUNyAhjpa",
+            "isAdmin": false
+        }
+    ]
 }

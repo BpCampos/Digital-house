@@ -5,6 +5,7 @@ const methodOverride = require('method-override')
 const homeRouter = require('./routes/homeRouter');
 const adminRouter = require('./routes/adminRouter');
 const userRouter = require('./routes/userRouter');
+const session = require('express-session')
 
 //Variaveis
 const app = express();
@@ -17,6 +18,11 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }))
 app.use(express.static(path.resolve("src", "public")));
 app.use(methodOverride('_method'))
+app.use(session({
+    secret: "Warning self destruction",
+    resave: false,
+    saveUninitialized: false,
+}));
 
 
 

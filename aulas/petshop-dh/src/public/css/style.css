@@ -300,6 +300,21 @@ section.contato p {
   padding: 5px 0;
 }
 
+.remember {
+  display: flex;
+  align-items: center;
+}
+
+.remember input {
+  width: fit-content;
+  margin: 10px 8px 0 0;
+}
+
+.remember label {
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
 .submit {
   margin: 18px 0 0 0;
   padding: 10px 15px;
@@ -391,4 +406,28 @@ section.contato p {
 
 .send:hover {
   cursor: pointer;
+}
+
+/* profile */
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 60px 0 75px 0;
+}
+
+.profile span {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.profile img {
+  width: 15%;
+}
+
+.profile p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0;
 }
