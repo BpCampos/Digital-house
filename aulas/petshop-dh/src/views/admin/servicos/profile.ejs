@@ -18,7 +18,7 @@
       <div class="profile">
         <span>Hi <%= userLogged.name %> </span>
         <img src="../../img/profile.png" alt="profile pic" />
-        <p>Welcome</p>
+        <p><%= userLogged.email %></p>
       </div>
     </main>
     <%- include("../../components/footer.ejs") %>

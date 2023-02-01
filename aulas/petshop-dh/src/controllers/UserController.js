@@ -29,6 +29,10 @@ const UserController = {
         res.redirect('/login')
     },
 
+    showProfile: (req, res) => {
+        return res.render('admin/servicos/profile', { userLogged: req.session.userLogged })
+    },
+
     login: (req, res) => {
 
         const { email, password } = req.body
@@ -53,9 +57,11 @@ const UserController = {
 
     },
 
-    showProfile: (req, res) => {
-        return res.render('admin/servicos/profile')
-    },
+    logout: (req, res) => {
+        req.session.destroy()
+
+        return res.redirect('/')
+    }
 }
 
 module.exports = UserController

@@ -1,5 +1,9 @@
-const submit = document.getElementById('cadastroSubmit')
+const container = document.querySelector('.container')
 
-submit.addEventListener('load', () => {
-    submit.classList.add('.notLoad')
+console.log(container)
+
+container.addEventListener('load', () => {
+    container.classList.add('notLoad')
 })
+
+

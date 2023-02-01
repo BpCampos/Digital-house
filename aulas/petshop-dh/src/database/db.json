@@ -24,24 +24,10 @@
     ],
     "users": [
         {
-            "id": "85202b6b-ab8f-4335-9c76-409730099d1f",
-            "name": "editado",
-            "email": "abcd@abcd.com",
-            "password": "$2b$10$NMoen61KnAWI.nDa9qTAMO/P6wBF5NY0Gfd7lPR.9rS.Yj91H9XDC",
-            "isAdmin": false
-        },
-        {
-            "id": "8dcd9e40-1182-48d4-a409-d38f2d42d20e",
+            "id": "b866cd8b-8581-4f42-afae-5a314f3c3cef",
             "name": "uva",
             "email": "uva@uva.com",
-            "password": "$2b$10$uODHRlM4eGYbTAW7LBrm8OT1AdtZHWGGHeCrbTQYl3dj8nRSbb10e",
-            "isAdmin": false
-        },
-        {
-            "id": "cd14a941-5f0f-474a-a43a-ab7300a47e62",
-            "name": "teste",
-            "email": "batata@batata.com",
-            "password": "$2b$10$GXx415BT0HMqUhFs3xOUAOdRWxipTCXXoZewEw4mv6GKwUNyAhjpa",
+            "password": "$2b$10$Bb00KAgjeH8Qc8LEif7nVerd39dUkIyLTsKqeTc.f8e4tm/n85fdS",
             "isAdmin": false
         }
     ]
