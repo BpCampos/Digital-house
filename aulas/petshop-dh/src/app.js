@@ -6,6 +6,8 @@ const homeRouter = require('./routes/homeRouter');
 const adminRouter = require('./routes/adminRouter');
 const userRouter = require('./routes/userRouter');
 const session = require('express-session')
+const loggedUserData = require('./middleware/loggedUserData')
+const cookies = require('cookie-parser')
 
 //Variaveis
 const app = express();
@@ -23,6 +25,9 @@ app.use(session({
     resave: false,
     saveUninitialized: false,
 }));
+app.use(cookies());
+app.use(loggedUserData);
+
 
 
 

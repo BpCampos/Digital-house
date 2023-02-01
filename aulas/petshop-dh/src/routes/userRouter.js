@@ -9,7 +9,7 @@ const router = express.Router();
 router.get('/admin/userCadastro', isLogged, UserController.showUserCadastro)
 router.post('/admin/userCadastro', validacoes, UserController.create)
 router.get('/admin/servicos/profile', notLogged, UserController.showProfile)
-router.post('/admin/login', validacoes, UserController.login)
+router.post('/admin/login', UserController.login)
 router.get('/logout', UserController.logout)
 
 module.exports = router

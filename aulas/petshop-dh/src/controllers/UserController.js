@@ -7,7 +7,6 @@ const bcrypt = require('bcrypt')
 const UserController = {
 
     showUserCadastro: (req, res) => {
-
         res.render('admin/userCadastro')
     },
 
@@ -27,10 +26,6 @@ const UserController = {
         servicoModel.createUser(user)
 
         res.redirect('/login')
-    },
-
-    showProfile: (req, res) => {
-        return res.render('admin/servicos/profile', { userLogged: req.session.userLogged })
     },
 
     login: (req, res) => {
@@ -53,11 +48,22 @@ const UserController = {
 
         req.session.userLogged = userFound
 
-        res.render('admin/servicos/profile', { userLogged: req.session.userLogged })
+        if (req.body.remember) {
+            res.cookie('userEmail', req.body.email, { age: (1000 * 60) * 30 })
+        }
+
+        res.redirect('/admin/servicos/profile')
 
     },
 
+    showProfile: (req, res) => {
+        console.log(req.cookies.userEmail)
+
+        return res.render('admin/servicos/profile', { userLogged: req.session.userLogged })
+    },
+
     logout: (req, res) => {
+        res.clearCookie('userEmail')
         req.session.destroy()
 
         return res.redirect('/')
