@@ -14,6 +14,7 @@ const UserController = {
         const errors = validationResult(req);
 
         if (!errors.isEmpty()) {
+            console.log(errors.mapped())
             return res.render('admin/userCadastro', { errors: errors.mapped() })
         }
 

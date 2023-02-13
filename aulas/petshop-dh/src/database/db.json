@@ -29,6 +29,13 @@
             "email": "uva@uva.com",
             "password": "$2b$10$Bb00KAgjeH8Qc8LEif7nVerd39dUkIyLTsKqeTc.f8e4tm/n85fdS",
             "isAdmin": false
+        },
+        {
+            "id": "570d3906-8071-4da8-b4ed-af73c59edf30",
+            "name": "bruno",
+            "email": "bruno@email.com",
+            "password": "$2b$10$XVd0g79GJgJ9FKAu8sfL5.LgN6NIP./iBKPP9iTzNqhEy73HAdzbe",
+            "isAdmin": false
         }
     ]
 }
