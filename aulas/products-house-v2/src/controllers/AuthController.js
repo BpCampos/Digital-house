@@ -42,7 +42,11 @@ const AuthController = {
 
         return res.redirect("/")
 
-    }
+    },
+
+    logout: (req, res) => {[
+        
+    ]}
 };
 
 module.exports = AuthController;

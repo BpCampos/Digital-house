@@ -1,6 +1,5 @@
 const { randomUUID } = require('crypto');
 const productsModel = require('../models/productsModel');
-const produtoModel = require('../models/productsModel');
 
 const AdminController = {
     showLogin: (req, res) => {
@@ -11,17 +10,17 @@ const AdminController = {
         const url = req.originalUrl;
         const products = produtoModel.findAll();
 
-        return res.render('admin/home', {url, products});
+        return res.render('admin/home', { url, products });
     },
 
     showDashboard: (req, res) => {
         const url = req.originalUrl;
-        return res.render('admin/dashboard', {url});
+        return res.render('admin/dashboard', { url });
     },
 
     showCadastroProdutos: (req, res) => {
         const url = req.originalUrl;
-        return res.render('admin/products/cadastro', {url});
+        return res.render('admin/products/cadastro', { url });
     },
 
     showEditarProdutos: (req, res) => {
@@ -59,7 +58,7 @@ const AdminController = {
     },
 
     storeProduto: (req, res) => {
-        const {name, price, active, stock, description} = req.body
+        const { name, price, active, stock, description } = req.body
 
         const image = `/images/${req.file.filename}`
 
@@ -79,11 +78,11 @@ const AdminController = {
     },
 
     updateProduto: (req, res) => {
-        const {name, price, image, active, stock, description} = req.body
+        const { name, price, image, active, stock, description } = req.body
         const { id } = req.params
 
         const indexProduct = database.products.findIndex(product => product.id === id)
-        
+
         const editedProduct = {
             id,
             name,
@@ -97,7 +96,7 @@ const AdminController = {
         database.products.splice(indexProduct, 1, editedProduct);
         return res.redirect('/admin/home')
     },
-    
+
     deleteProduto: (req, res) => {
         const { id } = req.params
 
