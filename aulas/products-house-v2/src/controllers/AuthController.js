@@ -1,4 +1,4 @@
-const User = require("../models/User");
+const User = require("../database/User");
 const bcrypt = require("bcryptjs");
 
 const AuthController = {
@@ -44,9 +44,11 @@ const AuthController = {
 
     },
 
-    logout: (req, res) => {[
-        
-    ]}
+    logout: (req, res) => {
+        [
+
+        ]
+    }
 };
 
 module.exports = AuthController;
